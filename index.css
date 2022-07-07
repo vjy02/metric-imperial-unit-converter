@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background: #1F2937;
+}
+
+h2{
+    color:#ebcc97;
+}
+#heading{
+    background: #eea424;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#unit-input{
+    height: 100px;
+    width: 120px;
+    background: #eea424;
+    margin:auto;
+    border: 2px solid #ebcc97;
+    border-radius: 5px;
+
+    font-size: 58;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#convert-btn{
+    width: 100px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    margin:25px auto 40px auto;
+    font-size: 16px;
+}
+
+#results-body{
+    margin-top: -10px;
+    padding-top: 20px;
+    background: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.result-box{
+    background: #273549;
+    height: 100px;
+    width: 500px;
+    margin: 15px auto;
+    padding: 10px 40px 20px 40px;
+}
+
+h3{
+    font-weight: normal;
+}
